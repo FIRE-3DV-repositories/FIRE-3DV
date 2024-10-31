@@ -1,8 +1,8 @@
-# AMBF-Vulkan
+# FIRE3D
 ## Setup
 ### Assets
-[Assets Repo](https://github.com/AMBF-Vulkan-repositories/src_sample_assets/tree/main/glTF)
-- move assets into a new "assets" folder in the AMBF-Vulkan directory
+[Assets Repo](https://github.com/FIRE3D-repositories/src_sample_assets/tree/main/glTF)
+- move assets into a new "assets" folder in the FIRE3D directory
 
 ### Vulkan setup
 ```
@@ -38,12 +38,12 @@ glslc ../shaders/post_process.vert --target-env=vulkan1.3 -O -o ../shaders/post_
 glslc ../shaders/post_process.frag --target-env=vulkan1.3 -O -o ../shaders/post_process.frag.spv
 ```
 ### Run the engine
-(from AMBF-Vulkan directory)
+(from FIRE3D directory)
 ```
 mkdir build
 cd build
 cmake ..
 make
-./ambf-vulkan
+./FIRE3D
 ```
 
