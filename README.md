@@ -1,4 +1,5 @@
 # FIRE-3DV
+![davinci robot](fire3dv.png "FIRE-3DV")
 ## Setup
 ### Assets
 [Assets Repo](https://github.com/FIRE3D-repositories/src_sample_assets/tree/main/glTF)
